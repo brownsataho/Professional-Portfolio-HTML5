@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Ataho Aprinal via email, phone, or WhatsApp.">
+    <title>Ataho Aprinal | Contact</title>
+</head>
+<body>
+    <header>
+        <h1>Contact Me</h1>
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="data.html">Data</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Section: Direct contact details (phone, WhatsApp, email) -->
+        <section>
+            <h2>Direct Contact Details</h2>
+            <ul>
+                <li>
+                    <!-- tel: link lets mobile users tap to call -->
+                    <strong>Phone:</strong>
+                    <a href="tel:+256709368001">+256709368001</a>
+                </li>
+                <li>
+                    <!-- WhatsApp click-to-chat -->
+                    <strong>WhatsApp:</strong>
+                    <a href="https://wa.me/256709368001"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                       Chat on WhatsApp (+256 709 368 001)
+                    </a>
+                </li>
+                <li>
+                    
+                    <strong>Email:</strong>
+                    <a href="mailto:atahoaprinal7@gmail.com">
+                       atahoaprinal7@gmail.com
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Section: Contact form -->
+        <section>
+            <h2>Send a Message</h2>
+            <form action="#" method="post">
+                <!-- Each input has a label linked by for/id for accessibility -->
+                <p>
+                    <label for="name">Full Name:</label><br>
+                    <input type="text" id="name" name="name" required>
+                </p>
+                <p>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required>
+                </p>
+                <p>
+                    <label for="phone">Phone:</label><br>
+                    <input type="tel" id="phone" name="phone"
+                           pattern="[0-9+\s-]{7,15}"
+                           placeholder="+256 709 368 001">
+                </p>
+                <p>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </p>
+                <p>
+                    <button type="submit">Send Message</button>
+                </p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Footer also shows contact links for accessibility on every page -->
+        <p>&copy; 2026 Ataho Aprinal.</p>
+        <p>
+            <a href="tel:+256709368001">Call</a> ·
+            <a href="https://wa.me/256709368001" target="_blank" rel="noopener noreferrer">WhatsApp</a> ·
+            <a href="mailto:atahoaprinal7@gmail.com">Email</a>
+        </p>
+    </footer>
+</body>
+</html>
